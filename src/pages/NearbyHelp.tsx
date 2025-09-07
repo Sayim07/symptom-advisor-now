@@ -187,7 +187,7 @@ const NearbyHelp = () => {
                     <Button 
                       variant="outline" 
                       size="sm"
-                      onClick={() => window.open(`https://maps.google.com/search/${encodeURIComponent(location.address)}`, '_blank')}
+                      onClick={() => window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location.address)}`, '_blank')}
                     >
                       <Navigation className="h-4 w-4 mr-2" />
                       Navigate
